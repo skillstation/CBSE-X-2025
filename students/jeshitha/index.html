@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>pr-jeshitha.md</title>
+    <script>
+        function authenticate() {
+            var username = prompt("Enter your email:");
+            var password = prompt("Enter your password:");
+            
+            if (username === "name@skillstation.org" && password === "pwd123") {
+                document.getElementById("content").style.display = "block";
+                document.getElementById("login-message").style.display = "none";
+            } else {
+                alert("Incorrect credentials. Access denied.");
+                authenticate();
+            }
+        }
+    </script>
+</head>
+<body onload="authenticate()">
+    <div id="login-message">
+        <p>Authenticating...</p>
+    </div>
+    <div id="content" style="display: none;">
+        <h2>JESHITHA</h2>
+        <p><strong>SUBJECTS ENROLLED:</strong> SCIENCE</p>
+        <p><strong>CLASS:</strong> 10 CBSE</p>
+        <p><strong>MARCH</strong></p>
+        <p><strong>0703 Week-01 Session-01</strong></p>
+    </div>
+</body>
+</html>
