@@ -1,4 +1,4 @@
-# SKILL STATION ACADEMY - CHENNAI
+# SKILL STATION ACADEMY 
 ### skillstation.academy@gmail.com • 7305959397
 ---
 
